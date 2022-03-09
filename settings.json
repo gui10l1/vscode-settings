@@ -1,0 +1,97 @@
+{
+  "terminal.integrated.fontSize": 14,
+
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "off",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.triggerExpansionOnTab": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  //Font
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  //Editor
+  "editor.suggest.showStatusBar": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.lineHeight": 24,
+  "editor.rulers": [80, 120],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.startupEditor": "newUntitledFile",
+
+  // MATERIAL THEME ICONS
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "dev": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "interfaces": "typescript",
+    "fakes": "mock",
+    "avatars": "images",
+    ".eslint": "command",
+    "components": "react-components",
+    "elements": "views",
+    "alerts": "event",
+    "clients": "",
+    "client": "",
+    "contexts": "container",
+    "context": "container",
+    "websockets": "serverless",
+    "sockets": "serverless",
+    "socketio": "serverless",
+    "sessions": "secure",
+    "session": "secure"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".env.exemple": "tune"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "Omni",
+
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open"
+}
